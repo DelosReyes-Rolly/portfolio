@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <React.Fragment>
-      <nav className="navbar navbar-expand-lg sticky-top py-3 px-2">
+      <nav className="navbar navbar-expand-lg sticky-top py-3 px-2" style={{backgroundColor: 'black'}}>
         <div className="container-fluid">
           <a className="navbar-brand fw-bold text-white" href="/">
             <div className='nav-header'>React Portfolio</div>
