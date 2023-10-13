@@ -1,13 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import './assets/css/style.css';
+import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Home from "./views/Home";
+import Experienceandskills from "./views/Experienceandskills";
+import Contact from "./views/Contact";
+import Projects from './views/Projects';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+        <Navbar />
+          <Routes>
+            <Route exact path='/' element={<Home/>}/>
+            <Route exact path='/projects' element={<Projects/>}/>
+            <Route exact path='/experienceandskills' element={<Experienceandskills />}/>
+            <Route exact path='/contact' element={<Contact />}/>
+          </Routes>
+        <Footer/>
+    </Router>
   </React.StrictMode>
 );
 
