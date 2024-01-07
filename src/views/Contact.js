@@ -18,14 +18,14 @@ const Contact = () => {
                             <p className='postcard__title home-title fade-in-text'>Contact Me</p>
                             <p className='home-subtitle postcard__preview-txt fade-in-text'>Should you have any questions, please don't hesitate to contact me.</p>
                             <p className='home-description postcard__preview-txt fade-in-text'>
-                                <BsFillTelephoneInboundFill/> 09560870191 <br/>
-                                <BsFillPinMapFill /> North Signal Village, Taguig City<br/>
-                                <MdMail /> rollydelosreyes729@gmail.com <br/>
+                                <a href="tel:09560870191"> <BsFillTelephoneInboundFill/> &nbsp; 09560870191 </a><br/>
+                                <a href="https://www.google.com/maps/place/North+Signal+Village,+Taguig,+Metro+Manila/@14.5181077,121.0522971,16z/data=!3m1!4b1!4m6!3m5!1s0x3397c8b56bb4dd9b:0x4fdd8e78b96ac86d!8m2!3d14.5161223!4d121.057159!16s%2Fg%2F125_jv52b?entry=ttu"><BsFillPinMapFill /> &nbsp; North Signal Village, Taguig City</a><br/>
+                                <a href="rollydelosreyes02@gmail.com"><MdMail /> &nbsp; rollydelosreyes02@gmail.com </a><br/>
                             </p><br/>
                             <div className='d-flex justify-content-center align-items-center fade-in-text'>
-                                <a href="https://drive.google.com/file/d/1pPV4pNhWdUPiODfddMEGPPpDtaG6WRH0/view?usp=sharing">
+                                <a href="https://drive.google.com/file/d/1xHm86JDutC2Crw-FsZkovroTEwVm6VYN/view?usp=sharing">
                                     <div className="download-button">
-                                        Download my resume!
+                                        <b>Download my resume!</b>
                                         <span>
                                             <span></span>
                                         </span>

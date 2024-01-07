@@ -13,20 +13,20 @@ const Home = () => {
                     <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6 order-last order-lg-first left-to-right">
                         <div className="text-center text-md-center text-lg-start text-white">
                             <p className='home-title animate-charcter'>Hello everyone!</p>
-                            <p className='home-subtitle' style={{fontWeight: 'bold'}}>I'm Rolly, BSIT from Polytechnic University of the Philippines.</p>
+                            <p className='home-subtitle' style={{fontWeight: 'bold'}}>I'm Rolly, BSIT graduate from Polytechnic University of the Philippines.</p>
                             <p className='home-description'>
-                                I am BSIT graduate from Polytechnic University of the Philippines, I am passionate about web development using different frameworks in front-end and back-end.  
-                                I seek challenging opportunities on which I can apply my knowledge in web development in the field of Information Technology. 
-                                I am also willing to learn new things,and expand my knowledge further to other fields of IT. 
+                                I am a recent graduate with a degree in BSIT from Polytechnic University of the Philippines, driven by a passion for web development using various frameworks in both front-end and back-end. 
+                                I am actively seeking challenging opportunities to apply my knowledge and skills in web development within the Information Technology field. 
+                                Committed to continuous learning, I am open to expanding my expertise into other IT domains.
                                 <br/><br/>
-                                I can work under pressure, and also a team player as he has experience in creating project together with other people. Experienced in basic troubleshooting of software, hardware and components<br/><br/>
-                                Learning new things is one of my priority as it expands my knowledge and skills. I am also constantly seeking new challenges and open for new opportunities. <br/><br/>
+                                With a proven ability to work under pressure and collaborate effectively within project teams, I bring valuable experience in creating successful projects. Additionally, I possess skills in basic troubleshooting of software, hardware, and components.<br/><br/>
+                                My commitment to learning is evident in my proactive approach to acquiring new knowledge and skills. I am always ready for new challenges and open to exploring exciting opportunities. <br/><br/>
                             </p>
                             <div className='socials d-flex gap-4 justify-content-center justify-content-md-center justify-content-lg-start'>
                                 <a href="https://linkedin.com/in/rolly-delos-reyes-b4a42824b" className='glow-on-hover'><FaLinkedin style={iconStyles}/>&nbsp;Linkedin</a>
                                 <a href="https://github.com/DelosReyes-Rolly/" target="_blank" rel="noreferrer" className='glow-on-hover'><FaGithubSquare style={iconStyles}/>&nbsp;Github</a>
                                 <a href="https://m.me/delosreyesrolly" target="_blank" rel="noreferrer" className='glow-on-hover'><FaFacebookSquare style={iconStyles}/>&nbsp;Facebook</a>
-                                <a href="mailto:rollydelosreyes729@gmail.com" target="_blank" rel="noreferrer" className='glow-on-hover'><AiTwotoneMail style={iconStyles}/>&nbsp;Email</a>
+                                <a href="mailto:rollydelosreyes02@gmail.com" target="_blank" rel="noreferrer" className='glow-on-hover'><AiTwotoneMail style={iconStyles}/>&nbsp;Email</a>
                             </div>
                         </div>
                     </div>

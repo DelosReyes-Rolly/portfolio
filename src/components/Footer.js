@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <React.Fragment><br/>
-        <footer class="text-center text-white" id="footer" style={{backgroundColor: 'black'}}>
-            <div class="text-center p-3">
-                © 2023 rdr
+        <footer className="text-center text-white" id="footer" style={{backgroundColor: 'black'}}>
+            <div className="text-center p-3">
+                © 2024 rdr
             </div>
         </footer>
     </React.Fragment>

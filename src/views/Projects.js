@@ -20,7 +20,7 @@ const Projects = () => {
                                 </time>
                             </div>
                             <div class="postcard__bar"></div>
-                            <div class="postcard__preview-txt fade-in-text">This is a school management system created for Signal Village National High School - Senior High. This was created a a part of our capstone project.</div>
+                            <div class="postcard__preview-txt fade-in-text">Developed a comprehensive school management system for Signal Village National High School - Senior High as a part of our capstone project.</div>
                             <ul class="postcard__tagbox">
                                 <li class="tag__item play blue"><i class="fas fa-tag mr-2"></i>Laravel</li>
                                 <li class="tag__item play blue"><i class="fas fa-clock mr-2"></i>HTML</li>
@@ -32,18 +32,18 @@ const Projects = () => {
                         </div>
                     </article>
                     <article class="postcard dark yellow left-to-right">
-                        <a class="postcard__img_link" href="https://shsboard.puptcapstone.net/">
+                        <a class="postcard__img_link" href="https://github.com/DelosReyes-Rolly/LaravelReact.git">
                             <img class="postcard__img" src={laravelreact} alt="Image Title" />
                         </a>
                         <div class="postcard__text">
-                            <h1 class="postcard__title yellow fade-in-text"><a href="https://shsboard.puptcapstone.net/">Laravel + React Login App</a></h1>
+                            <h1 class="postcard__title yellow fade-in-text"><a href="https://github.com/DelosReyes-Rolly/LaravelReact.git">Laravel + React Login App</a></h1>
                             <div class="postcard__subtitle small">
                                 <time datetime="2020-05-25 12:00:00">
                                     <i class="fas fa-calendar-alt mr-2"></i><div className='fade-in-text'>Simple Project</div>
                                 </time>
                             </div>
                             <div class="postcard__bar"></div>
-                            <div class="postcard__preview-txt fade-in-text">This is created when I was learning React and using Laravel as a back-end. </div>
+                            <div class="postcard__preview-txt fade-in-text">Developed during the learning phase of React, incorporating Laravel as the backend technology. </div>
                             <ul class="postcard__tagbox">
                                 <li class="tag__item play yellow"><i class="fas fa-tag mr-2"></i>Laravel</li>
                                 <li class="tag__item play yellow"><i class="fas fa-clock mr-2"></i>HTML</li>

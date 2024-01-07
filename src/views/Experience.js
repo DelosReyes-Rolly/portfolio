@@ -20,8 +20,8 @@ const Experience = () => {
               </div>
               <div className="postcard__bar"></div>
               <div className="postcard__preview-txt fade-in-text">
-                Develop and execute manual and automated test cases to identify defects in software products.
-                Collaborate with other members of the quality assurance team to continuously improve testing methodologies and techniques.
+                Proficient in crafting and implementing both manual and automated test cases with a keen eye for identifying software defects.
+                Seamless collaboration with QA team to enhance and refine testing methodologies, contributing to continuous improvement.
               </div>
               <ul className="postcard__tagbox">
                 <li className="tag__item fade-in-text"><i className="fas fa-tag mr-2"></i>April -July 2023</li>
@@ -41,8 +41,8 @@ const Experience = () => {
               </div>
               <div className="postcard__bar"></div>
               <div className="postcard__preview-txt fade-in-text">
-                Receiving, verifying, and filing needed requirement of the employees. Assisting applicants 
-                through different steps of employment and encoding their personal information through the system.
+                Streamline reception, verification, and filing processes for employee requirements with efficiency. 
+                Deliver comprehensive assistance to applicants, ensuring a seamless experience through the employment process, while meticulously encoding personal information into the system.
               </div>
               <ul className="postcard__tagbox">
                 <li className="tag__item"><i className="fas fa-tag mr-2 fade-in-text"></i>April -May 2018</li>

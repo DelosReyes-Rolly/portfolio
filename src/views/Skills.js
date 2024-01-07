@@ -34,7 +34,7 @@ const Skills = () => {
             <div className="card gr-3 right-to-left">
               <div className="txt">
                 <h1 className='fade-in-text'>HTML</h1>
-                <p>Intermediate</p>
+                <p>Advanced</p>
               </div>
               <div className="ico-card">
                 <i><TbBrandHtml5/></i>
@@ -45,7 +45,7 @@ const Skills = () => {
             <div className="card gr-1 left-to-right">
               <div className="txt">
                 <h1 className='fade-in-text'>CSS</h1>
-                <p>Intermediate</p>
+                <p>Advanced</p>
               </div>
               <div className="ico-card">
                 <i><TbBrandCss3/></i>
@@ -89,7 +89,7 @@ const Skills = () => {
             <div className="card gr-2 top-to-bottom">
               <div className="txt">
                 <h1 className='fade-in-text'>JAVA</h1>
-                <p>Beginner</p>
+                <p>Intermediate</p>
               </div>
               <div className="ico-card">
                 <i><LiaJava /></i>
@@ -111,7 +111,7 @@ const Skills = () => {
             <div className="card gr-1 left-to-right">
               <div className="txt">
                 <h1 className='fade-in-text'>Bootstrap</h1>
-                <p>Intermediate</p>
+                <p>Advanced</p>
               </div>
               <div className="ico-card">
                 <i><FaBootstrap/></i>
