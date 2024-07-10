@@ -327,12 +327,12 @@ a, a:hover {
     justify-content: start;
   }
   .postcard .postcard__img {
-    max-width: 300px;
+    max-width: 380px;
     max-height: 100%;
     transition: transform 0.3s ease;
   }
   .postcard .postcard__text {
-    padding: 3rem;
+    padding: 2.9rem;
     width: 100%;
   }
   .postcard .media.postcard__text:before {
@@ -342,7 +342,7 @@ a, a:hover {
     background: #18151f;
     top: -20%;
     height: 130%;
-    width: 55px;
+    width: 40px;
   }
   .postcard:hover .postcard__img {
     transform: scale(1.1);
@@ -373,7 +373,7 @@ a, a:hover {
     display: block;
     top: -20%;
     height: 130%;
-    width: 55px;
+    width: 42px;
   }
 
   .postcard.dark .postcard__text:before {
@@ -816,7 +816,7 @@ a, a:hover {
     -ms-transform: translateY(-5px);
     -o-transform: translateY(-5px);
     transform: translateY(-5px);
-    color: black;
+    color: white;
     background: rgba(197, 55, 55, 0.8);
   }
   .download-button:hover > span {

@@ -10,7 +10,7 @@ const Contact = () => {
             <div className="container py-4">
                 <div className="row align-items-center postcard dark red top-to-bottom">
                     <div className='col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center align-items-center order-last order-lg-first'>
-                        <img src={contact} className='contact-image fade-in-text'/>
+                        <img src={contact} className='contact-image fade-in-text' alt='contact'/>
                         <br/>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 order-first order-lg-last">
@@ -23,7 +23,7 @@ const Contact = () => {
                                 <a href="rollydelosreyes02@gmail.com"><MdMail /> &nbsp; rollydelosreyes02@gmail.com </a><br/>
                             </p><br/>
                             <div className='d-flex justify-content-center align-items-center fade-in-text'>
-                                <a href="https://drive.google.com/file/d/1xHm86JDutC2Crw-FsZkovroTEwVm6VYN/view?usp=sharing">
+                                <a href="https://drive.google.com/file/d/1mwOx5VT_XGwoTfpEeSWgsZC57zbvrGeb/view?usp=sharing">
                                     <div className="download-button">
                                         <b>Download my resume!</b>
                                         <span>

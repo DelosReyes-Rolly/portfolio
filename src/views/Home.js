@@ -4,7 +4,6 @@ import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import { AiTwotoneMail } from 'react-icons/ai'
 
 const Home = () => {
-    let circleClasses = "inline-block text-white";
     let iconStyles = { fontSize: "2em" };
     return (
         <React.Fragment>
@@ -15,7 +14,7 @@ const Home = () => {
                             <p className='home-title animate-charcter'>Hello everyone!</p>
                             <p className='home-subtitle' style={{fontWeight: 'bold'}}>I'm Rolly, BSIT graduate from Polytechnic University of the Philippines.</p>
                             <p className='home-description'>
-                                I am a recent graduate with a degree in BSIT from Polytechnic University of the Philippines, driven by a passion for web development using various frameworks in both front-end and back-end. 
+                                I am an honor graduate with a degree in BSIT from Polytechnic University of the Philippines, driven by a passion for web development using various frameworks in both front-end and back-end. 
                                 I am actively seeking challenging opportunities to apply my knowledge and skills in web development within the Information Technology field. 
                                 Committed to continuous learning, I am open to expanding my expertise into other IT domains.
                                 <br/><br/>
@@ -31,7 +30,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 d-flex justify-content-center align-items-center order-first order-lg-last right-to-left'>
-                        <img src={profile} className='profile'/>
+                        <img src={profile} className='profile' alt='profile'/>
                         <br/>
                     </div>
                 </div>

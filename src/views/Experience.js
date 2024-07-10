@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="container py-4">
           <article className="postcard dark red right-to-left">
             <a className="postcard__img_link" href="https://www.achievewithoutborders.com/">
-              <img className="postcard__img" src={awb} alt="Image Title" />	
+              <img className="postcard__img" src={awb} alt="awb" />	
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title red fade-in-text"><a href="https://www.achievewithoutborders.com/">Quality Assurance Engineer Intern</a></h1>
@@ -30,7 +30,7 @@ const Experience = () => {
           </article>
           <article className="postcard dark green left-to-right">
             <a className="postcard__img_link" href="https://www.concentrix.com/">
-              <img className="postcard__img" src={concentrix} alt="Image Title" />
+              <img className="postcard__img" src={concentrix} alt="concentrix" />
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title green fade-in-text"><a href="https://www.concentrix.com/">Human Resource Specialist Intern</a></h1>
